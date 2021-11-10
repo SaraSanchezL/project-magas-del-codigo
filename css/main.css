@@ -18,22 +18,23 @@ footer {
 
 .Copyright {
      color: #b8b8b9;    
+     opacity: 75%;
+     margin-bottom: 20px;
 }
 
 .Footer-Links {
     opacity: 0.75;
     color: #54585a; 
     font-weight: 600;
-    list-style: none;
     text-align: center;
 }
 
 .Footer-Links a {
-     text-decoration: none;
      color: #54585a;
 }
 
 .Adalab-logo {
 width: 115.9px;
 height: 45px;
+margin-top: 30px;
 }
