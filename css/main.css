@@ -1,40 +1,100 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 /* Esta es la tipo que usa toda la web, la he puesto en el footer, pero si la cambiamos al body mejor */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+header {
+  background-image: url(./header-image.jpg);
+  /*height: 421px;*/
+}
 
+.header-image {
+  width: 320px;
+  height: 421px;
+  object-fit: fill;
+  position: relative;
+  bottom: 105px;
+  z-index: 1;
+}
+h1 {
+  height: 60px;
+  box-sizing: border-box;
+  width: 320px; /*o debería indicar 320px para versión móvil y luego reescalar para otros dispositivos?*/
+  padding: 15px 80px;
+  background-color: #099d8d;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  opacity: 0.95;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  width: 320px;
+  background-color: #14d9c4;
+  opacity: 0.9;
+  height: 45px;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+.header-text {
+  box-sizing: border-box;
+  width: 290px;
+  height: 80px;
+  margin: 387px 15px 0;
+  padding: 14px 15px 16px;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  position: relative;
+  z-index: 10;
+  top: -545px;
+}
 footer {
-     width: 100%;
-     padding: 30px 0 45px 0;
-     border: solid 1px #b8b8b9;
-     background-color: #fff;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     font-family: 'Open Sans', sans-serif;
-     font-size: 14px;
-     line-height: 20px;
+  width: 100%;
+  padding: 30px 0 45px 0;
+  border: solid 1px #b8b8b9;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .Copyright {
-     color: #b8b8b9;    
-     opacity: 75%;
-     margin-bottom: 20px;
+  color: #b8b8b9;
+  opacity: 75%;
+  margin-bottom: 20px;
 }
 
 .Footer-Links {
-    opacity: 0.75;
-    color: #54585a; 
-    font-weight: 600;
-    text-align: center;
+  opacity: 0.75;
+  color: #54585a;
+  font-weight: 600;
+  text-align: center;
 }
 
 .Footer-Links a {
-     color: #54585a;
+  color: #54585a;
 }
 
 .Adalab-logo {
-width: 115.9px;
-height: 45px;
-margin-top: 30px;
+  width: 115.9px;
+  height: 45px;
+  margin-top: 30px;
 }
