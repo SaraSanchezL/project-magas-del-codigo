@@ -226,10 +226,14 @@ footer {
   color: #54585a;
   font-weight: 600;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .Footer-Links a {
   color: #54585a;
+  display: flex;
+  flex-direction: column;
 }
 
 .Adalab-logo {
