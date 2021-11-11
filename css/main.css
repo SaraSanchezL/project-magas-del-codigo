@@ -63,6 +63,120 @@ ul {
   z-index: 10;
   top: -545px;
 }
+/* Quiénes somos */
+.about-us {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-tittle {
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #099d8d;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.img-box {
+  width: 180px;
+  background-color: #f1f1f1;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.img-girl {
+  border-radius: 4px;
+}
+.about-article {
+  display: flex;
+  margin-bottom: 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  color: #54585a;
+}
+.social-icons {
+  margin-top: 5px;
+}
+
+/* Footer */
+/* Estilo de la parte de Equipo, Fortalezas y Debilidades */
+
+.sectionuno {
+  padding: 30px 15px;
+  background-color: #ffffff;
+}
+
+.title_team {
+  margin: 15px 99.5px 15px 99.5px;
+  font-family: Rubik;
+  font-size: 24px medium;
+  font-weight: 600px;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;
+}
+
+.itemuno {
+  margin: 15px;
+  font-family: OpenSans;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: #54585a;
+}
+.sectiondos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px 45px;
+  background-color: #f1f1f1;
+}
+.title_fortalezas {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500px;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;
+}
+.itemdos {
+  margin: 45px 0 30px;
+  font-family: OpenSans;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: #54585a;
+}
+.title_debilidades {
+  font-family: Rubik;
+  font-size: 22px;
+  line-height: 45px;
+  font-weight: 500px;
+  text-align: center;
+  color: #099d8d;
+}
+.itemtres {
+  margin: 45px 0 30px;
+  font-family: OpenSans;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: #54585a;
+}
+/* Estilo de la parte de Equipo, Fortalezas y Debilidades */
+
 footer {
   width: 100%;
   padding: 30px 0 45px 0;
