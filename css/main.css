@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 /* Esta es la tipo que usa toda la web, la he puesto en el footer, pero si la cambiamos al body mejor */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
 
 /* Header*/
 header {
@@ -28,6 +28,7 @@ h1 {
   background-color: #099d8d;
   color: #ffffff;
   font-family: "Rubik", sans-serif;
+  font-weight: 500;
   opacity: 0.95;
   font-size: 16px;
   display: flex;
@@ -63,6 +64,7 @@ ul {
   padding: 14px 15px 16px;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   font-size: 18px;
   line-height: 25px;
   position: absolute;
@@ -79,6 +81,7 @@ ul {
   background-color: #ffffff;
   padding: 100px 15px;
   margin-top: 30px;
+  position: relative;
 }
 
 .title_team {
@@ -86,10 +89,10 @@ ul {
   margin-top: 15px;
   font-family: "Rubik", sans-serif;
   font-size: 24px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 45px;
   text-align: center;
-  color: #099d8d;
+  color: #14d9c4;
 }
 
 .itemuno {
@@ -100,6 +103,17 @@ ul {
   text-align: center;
   color: #54585a;
 }
+
+.square {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+ transform: translate(-50%, 50%) rotate(-45deg);
+}
+
 .sectiondos {
   background-color: #f1f1f1;
   display: flex;
@@ -109,16 +123,15 @@ ul {
   padding: 30px 15px 45px;
 }
 .title_fortalezas {
-  margin: 15px 0 15px 0px;
+  margin-top: 15px;
   font-family: "Rubik", sans-serif;
   font-size: 22px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 45px;
   text-align: center;
   color: #099d8d;
 }
 .itemdos {
-  margin: 45px 0 30px;
   font-family: "OpenSans", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -126,16 +139,15 @@ ul {
   color: #54585a;
 }
 .title_debilidades {
-  margin: 15px 0 15px 0px;
+  margin-top: 15px;
   font-family: "Rubik", sans-serif;
   font-size: 22px;
   line-height: 45px;
-  font-weight: 500px;
+  font-weight: 500;
   text-align: center;
   color: #099d8d;
 }
 .itemtres {
-  margin: 45px 0 30px;
   font-family: "OpenSans", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -157,6 +169,7 @@ ul {
   color: #099d8d;
   font-family: "Rubik", sans-serif;
   font-size: 24px;
+  font-weight: 500;
 }
 .about-container {
   display: flex;
@@ -166,22 +179,18 @@ ul {
 }
 .about-container h3 {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 45px;
   color: black;
-}
-.img-box {
-  width: 180px;
-  background-color: #f1f1f1;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  padding: 3px;
-  border-radius: 5px;
-  margin-bottom: 15px;
+  font-weight: 300;
 }
 .img-girl {
-  border-radius: 4px;
+  width: 180px;  
+  border-radius: 8px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  margin-bottom: 15px;
 }
+
 .about-article {
   display: flex;
   margin-bottom: 45px;
@@ -195,17 +204,22 @@ ul {
   font-size: 16px;
   text-align: center;
   line-height: 24px;
-  padding: 30px 15px 15px;
+  padding: 0 15px 15px;
 }
 .social-icons {
   margin-top: 5px;
+  color: #099d8d;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 /* Footer */
 footer {
   width: 100%;
   padding: 30px 0 45px 0;
-  border: solid 1px #b8b8b9;
+  border-top:  solid 1px #b8b8b9;
   background-color: #fff;
   display: flex;
   flex-direction: column;
