@@ -94,6 +94,15 @@ ul {
   text-align: center;
   color: #54585a;
 }
+.small {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 12px;
+  text-align: center;
+}
+.asterisk {
+  color: #099d8d;
+}
 
 .square {
   background-color: white;
@@ -204,6 +213,13 @@ ul {
   display: flex;
   justify-content: center;
   gap: 8px;
+}
+
+/* Form */
+.form-container {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 12px;
 }
 
 /* Footer */
