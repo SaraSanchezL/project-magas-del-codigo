@@ -1,0 +1,351 @@
+/* @import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+/* Esta es la tipo que usa toda la web, la he puesto en el footer, pero si la cambiamos al body mejor */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
+
+/* Header*/
+.header {
+  background-image: url(../images/header-image.jpg);
+  background-size: cover;
+  height: 467px;
+  position: relative;
+}
+
+h1 {
+  height: 60px;
+  box-sizing: border-box;
+  width: 100%; /*o debería indicar 320px para versión móvil y luego reescalar para otros dispositivos?*/
+  padding: 15px 80px;
+  background-color: #099d8d;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  opacity: 0.95;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+nav {
+  width: 100%;
+  background-color: #14d9c4;
+  opacity: 0.9;
+  height: 45px;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+.header-text {
+  box-sizing: border-box;
+  width: 91%;
+  height: 80px;
+  /*margin: 387px 15px 0;*/
+  padding: 14px 15px 16px;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  /*top: -545px;*/
+}
+
+/* Estilo Equipo, Fortalezas y Debilidades */
+.sectionuno {
+  background-color: #ffffff;
+  padding: 15px 15px 25px 15px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.title_team {
+  padding: 15px 0px 15px 0px;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: #14d9c4;
+  text-transform: uppercase;
+}
+
+.itemuno {
+  margin: 15px;
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+.small {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 12px;
+  text-align: center;
+}
+.asterisk {
+  color: #099d8d;
+}
+
+.square {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%) rotate(-45deg);
+}
+
+.sectiondos {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px 45px 15px;
+}
+.title_fortalezas {
+  margin-top: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;
+}
+.itemdos {
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+.title_debilidades {
+  margin-top: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  line-height: 45px;
+  font-weight: 500;
+  text-align: center;
+  color: #099d8d;
+}
+.itemtres {
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+/* Estilo Quiénes somos */
+.about-us {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-tittle {
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #099d8d;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.about-container h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 45px;
+  color: black;
+  font-weight: 300;
+}
+.img-girl {
+  width: 180px;
+  border-radius: 8px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  margin-bottom: 15px;
+}
+
+.about-articleuno {
+  display: flex;
+  margin-bottom: 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-articledos {
+  display: flex;
+  margin-bottom: 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.names {
+  text-align: center;
+}
+.descriptionuno,
+.descriptiondos {
+  color: #54585a;
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  padding: 0 15px 15px;
+}
+.social-icons {
+  margin-top: 5px;
+  color: #099d8d;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Form */
+.form-container {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 12px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  padding: 30px 0 45px 0;
+  border-top: solid 1px #b8b8b9;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Copyright {
+  color: #b8b8b9;
+  opacity: 75%;
+  margin-bottom: 20px;
+}
+
+.Footer-Links {
+  opacity: 0.75;
+  color: #54585a;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.Footer-Links a {
+  color: #54585a;
+  display: flex;
+  flex-direction: column;
+}
+
+.Adalab-logo {
+  width: 115.9px;
+  height: 45px;
+  margin-top: 30px;
+}
+
+/* Mediaquerys 768px y 1200px */
+
+@media all and (min-width: 768px) {
+  /* falta header */
+
+  .sectionuno {
+    padding-top: 15px;
+  }
+  .sectiondos {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 60px 15px;
+  }
+  .articleuno {
+    padding-right: 15px;
+  }
+  .articledos {
+    padding-left: 15px;
+  }
+  .title_fortalezas {
+    padding-bottom: 15px;
+  }
+  .title_debilidades {
+    padding-bottom: 15px;
+  }
+  .about-articleuno {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .about-articledos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0px 30px 0px 30px;
+  }
+  .descriptionuno {
+    text-align: left;
+  }
+  .descriptiondos {
+    text-align: right;
+  }
+  .boxuno {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0px 30px 0px 30px;
+  }
+  /* falta poner medidas fotos, margenes o padding */
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* Falta colocar bien los elementos */
+}
