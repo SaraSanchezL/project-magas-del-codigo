@@ -26,6 +26,7 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
+  text-transform: uppercase;
 }
 
 nav {
@@ -40,6 +41,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  text-transform: uppercase;
 }
 ul {
   display: flex;
@@ -80,6 +82,7 @@ ul {
   line-height: 45px;
   text-align: center;
   color: #14d9c4;
+  text-transform: uppercase;
 }
 
 .itemuno {
@@ -89,6 +92,15 @@ ul {
   line-height: 24px;
   text-align: center;
   color: #54585a;
+}
+.small {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 12px;
+  text-align: center;
+}
+.asterisk {
+  color: #099d8d;
 }
 
 .square {
@@ -212,6 +224,13 @@ ul {
   gap: 8px;
 }
 
+/* Form */
+.form-container {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 12px;
+}
+
 /* Footer */
 footer {
   width: 100%;
@@ -239,6 +258,7 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
 }
 
 .Footer-Links a {
