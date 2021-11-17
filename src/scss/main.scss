@@ -8,77 +8,13 @@
 @import "pages/index"; */
 @import "core/reset";
 @import "layout/footer";
+@import "core/_header"; 
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 /* Esta es la tipo que usa toda la web, la he puesto en el footer, pero si la cambiamos al body mejor */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
 
-/* Header*/
-.header {
-  background-image: url(../images/header-image.jpg);
-  background-size: cover;
-  height: 467px;
-  position: relative;
-}
-
-h1 {
-  height: 60px;
-  box-sizing: border-box;
-  width: 100%; /*o debería indicar 320px para versión móvil y luego reescalar para otros dispositivos?*/
-  padding: 15px 80px;
-  background-color: #099d8d;
-  color: #ffffff;
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
-  opacity: 0.95;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-transform: uppercase;
-  @media (min-width: 768px) {
-    color: orange;
-  }
-}
-
-nav {
-  width: 100%;
-  background-color: #14d9c4;
-  opacity: 0.9;
-  height: 45px;
-  color: #ffffff;
-  font-family: "Rubik", sans-serif;
-  font-size: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  text-transform: uppercase;
-}
-ul {
-  display: flex;
-  justify-content: space-around;
-}
-.header-text {
-  box-sizing: border-box;
-  width: 91%;
-  height: 80px;
-  /*margin: 387px 15px 0;*/
-  padding: 14px 15px 16px;
-  background-color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  text-align: center;
-  /*top: -545px;*/
-}
 
 /* Estilo Equipo, Fortalezas y Debilidades */
 .sectionuno {
