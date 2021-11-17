@@ -207,7 +207,8 @@ ul {
 .names {
   text-align: center;
 }
-.descriptionuno .descriptiondos {
+.descriptionuno,
+.descriptiondos {
   color: #54585a;
   font-family: "OpenSans", sans-serif;
   font-size: 16px;
