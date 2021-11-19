@@ -1,6 +1,45 @@
 .sectionuno {
   background-color: #ffffff;
-  padding: 15px 15px 25px 15px;
+  padding: 15px 15px 30px 15px;
   margin-top: 30px;
   position: relative;
+}
+.title_team {
+  padding: 15px 0px 15px 0px;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;
+  text-transform: uppercase;
+}
+
+.itemuno {
+  font-family: "OpenSans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+@media (min-width: 768px) {
+  .title_team {
+    padding: 45px 339.3px 0px 340px;
+  }
+  .itemuno {
+    padding: 15px 45px 60px 45px;
+  }
+}
+@media (min-width: 1200px) {
+  .sectionuno {
+    padding-top: 45px;
+    margin: 0;
+  }
+  .title_team {
+    align-items: center;
+  }
+  .itemuno {
+    padding: 15px 300px 60px 299px;
+  }
 }
