@@ -7,9 +7,14 @@
 @import "layout/footer";
 @import "pages/index"; */
 @import "core/reset";
+<<<<<<< HEAD
 @import "layout/footer";
 @import "core/_header";
 @import "layout/quienessomos";
+=======
+@import "layout/sectionuno";
+@import "layout/sectiondos";
+>>>>>>> partial-article
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
@@ -17,12 +22,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
 
 /* Estilo Equipo, Fortalezas y Debilidades */
-.sectionuno {
+/* .sectionuno {
   background-color: #ffffff;
   padding: 15px 15px 25px 15px;
   margin-top: 30px;
   position: relative;
-}
+} */
 
 .title_team {
   padding: 15px 0px 15px 0px;
@@ -63,14 +68,14 @@
   transform: translate(-50%, 50%) rotate(-45deg);
 }
 
-.sectiondos {
+/*.sectiondos {
   background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 30px 15px 45px 15px;
-}
+} 
 .title_fortalezas {
   margin-top: 15px;
   font-family: "Rubik", sans-serif;
@@ -79,15 +84,15 @@
   line-height: 45px;
   text-align: center;
   color: #099d8d;
-}
-.itemdos {
+} */
+/*.itemdos {
   font-family: "OpenSans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: #54585a;
-}
-.title_debilidades {
+}*/
+/*.title_debilidades {
   margin-top: 15px;
   font-family: "Rubik", sans-serif;
   font-size: 22px;
@@ -101,8 +106,9 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #54585a;
-}
+  color: #54585a;*/
+
+/*
 
 /* Form */
 .form-container {
@@ -121,18 +127,18 @@
   .sectionuno {
     padding-top: 15px;
   }
-  .sectiondos {
+  /*.sectiondos {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 15px 15px 60px 15px;
-  }
+  } 
   .articleuno {
     padding-right: 15px;
   }
   .articledos {
     padding-left: 15px;
-  }
+  } */
   .title_fortalezas {
     padding-bottom: 15px;
   }
