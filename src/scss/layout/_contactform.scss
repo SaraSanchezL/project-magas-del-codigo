@@ -1,0 +1,43 @@
+.form {
+  margin: 60px 15px;
+  color: #54585a;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.required::after {
+  content: "*";
+  color: #14d9c4;
+  margin-left: 3px;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 7px;
+  margin-top: 15px;
+  display: block;
+}
+
+input,
+textarea {
+  border: solid 1px #b8b8b9;
+  width: 100%;
+  line-height: 15px;
+  padding: 15px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #b8b8b9;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cta {
+  text-transform: uppercase;
+  color: white;
+  background-color: #099d8d;
+  margin-top: 30px;
+  border-radius: 4px;
+}
