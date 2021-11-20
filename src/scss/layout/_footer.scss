@@ -22,7 +22,7 @@ footer {
   opacity: 75%;
   margin-bottom: 20px;
   @media (min-width: 768px) {
-    margin: 30px 0px 15px 30px;
+    margin: 30px 0px 15px 138px;
   }
 }
 
@@ -36,8 +36,7 @@ footer {
   text-transform: uppercase;
   @media (min-width: 768px) {
     align-items: flex-end;
-    margin-right: 30px;
-    margin-top: 25px;
+    margin: 25px 138px 0px 0px;
   }
 }
 
@@ -48,8 +47,7 @@ footer {
   order: 3;
   @media (min-width: 768px) {
     position: absolute;
-    margin-left: 30px;
-
     bottom: 60px;
+    margin-left: 138px;
   }
 }
