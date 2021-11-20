@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
-</head>
+  <body>
+    <include
+      src="./partials/header.html"
+      title="Grupo 7"
+      hrefE="#equipo"
+      hrefQ="quienessomos"
+      hrefC="./contact.html"
+      textE="Equipo"
+      textQ="Quiénes somos"
+      textC="Contacto"
+      headertext="Lorem"
+    ></include>
+    <include src="./partials/contactheader.html"></include>
 
-<body>
-  <include src="./partials/header.html" title="Grupo 7" hrefE="#equipo" hrefQ="quienessomos" hrefC="./contact.html"
-    textE="Equipo" textQ="Quiénes somos" textC="Contacto" headertext="Lorem"></include>
+    <main>
+      <include src="./partials/sectionuno.html"></include>
 
+      <section class="sectiondos">
+        <include
+          classfija="article"
+          sectionclass="test"
+          src="./partials/sectiondos.html"
+          title="Fortalezas"
+          text="Al contar con estudios, experiencia laboral, experiencia vital y personalidades diferentes, nuestra caja de herramientas es nutrida y variada. Eso nos permite unir fuerzas para trabajar de forma colaborativa, agradable y eficiente."
+        >
+        </include>
 
+        <include
+          sectionclass="articleDos"
+          src="./partials/sectiondos.html"
+          title="Debilidades"
+          text="La distancia, el no conocernos, el ser la primera vez que nos enfrentamos a programación, de forma tanto individual como grupal no es sencillo pero este proyecto está sirviendo como aprendizaje, tanto de maquetación como de trabajo en equipo de forma remota."
+        >
+        </include>
+      </section>
 
-  <main>
-    <include src="./partials/sectionuno.html"></include>
+      <include src="./partials/quienessomos.html"></include>
+    </main>
 
-
-
-    <section class="sectiondos">
-
-      <include classfija="article" sectionclass="test" src="./partials/sectiondos.html" title="Fortalezas"
-        text="Al contar con estudios, experiencia laboral, experiencia vital y personalidades diferentes, nuestra caja de herramientas es nutrida y variada. Eso nos permite unir fuerzas para trabajar de forma colaborativa, agradable y eficiente.">
-      </include>
-
-      <include sectionclass="articleDos" src="./partials/sectiondos.html" title="Debilidades"
-        text="La distancia, el no conocernos, el ser la primera vez que nos enfrentamos a programación, de forma tanto individual como grupal no es sencillo pero este proyecto está sirviendo como aprendizaje, tanto de maquetación como de trabajo en equipo de forma remota.">
-      </include>
-    </section>
-
-
-    <include src="./partials/quienessomos.html"></include>
-  </main>
-
-  <include src="./partials/footer.html"></include>
-</body>
-
+    <include src="./partials/footer.html"></include>
+  </body>
 </html>
