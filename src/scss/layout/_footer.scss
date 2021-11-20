@@ -5,7 +5,7 @@ footer {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+
   align-items: center;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -49,5 +49,7 @@ footer {
   @media (min-width: 768px) {
     position: absolute;
     margin-left: 30px;
+
+    bottom: 60px;
   }
 }
