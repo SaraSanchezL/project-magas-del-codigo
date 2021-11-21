@@ -13,6 +13,9 @@
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
+  @media (min-width: 1200px) {
+    margin-top: 45px;
+  }
 }
 .about-container {
   display: flex;
@@ -32,6 +35,14 @@
   height: 180px;
   border-radius: 8px;
   border: solid 5px rgba(0, 0, 0, 0.08);
+  @media (min-width: 768px) {
+    width: 205px;
+    height: 205px;
+  }
+  @media (min-width: 1200px) {
+    width: 278px;
+    height: 278px;
+  }
 }
 
 .about-articleuno {
@@ -40,6 +51,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 45px;
+  }
+  @media (min-width: 1200px) {
+    transform: translateX(-25%);
+  }
 }
 .about-articledos {
   display: flex;
@@ -47,6 +68,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: 45px;
+  }
+  @media (min-width: 1200px) {
+    transform: translateX(25%);
+  }
 }
 .names {
   text-align: center;
@@ -66,28 +96,18 @@
   font-size: 16px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 8px;
 }
 
 /* MediaQueries 768 px y 1200px */
 
 @media all and (min-width: 768px) {
-  .img-girl {
-    width: 205px;
-    height: 205px;
+  .descriptionuno {
+    text-align: left;
   }
-  .about-articleuno {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 45px;
-  }
-  .about-articledos {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    margin-right: 45px;
+  .descriptiondos {
+    text-align: right;
   }
   .box {
     display: flex;
@@ -97,12 +117,7 @@
     box-sizing: border-box;
     padding: 0px 30px 0px 30px;
   }
-  .descriptionuno {
-    text-align: left;
-  }
-  .descriptiondos {
-    text-align: right;
-  }
+
   .boxuno {
     display: flex;
     flex-direction: column;
@@ -113,21 +128,8 @@
 }
 
 @media all and (min-width: 1200px) {
-  .about-tittle {
-    margin-top: 45px;
-  }
-  .img-girl {
-    width: 278px;
-    height: 278px;
-  }
   .descriptionuno,
   .descriptiondos {
     width: 439px;
-  }
-  .about-articleuno {
-    transform: translateX(-25%);
-  }
-  .about-articledos {
-    transform: translateX(25%);
   }
 }
