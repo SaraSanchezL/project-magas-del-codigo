@@ -7,6 +7,9 @@ diseño y unas características dadas.
 El trabajo se dividirá en dos páginas, una llamada Home y otra
 llamada Contactos.
 
+Para poder abrir y trabajar sobre este repositorio, se requiere
+el archivo zip e instalar Web Adalab Starter Kit.
+
 Una vez realizada la maquetación de la página **Home**, se empieza
 a dar forma a la página con los diferentes estilos, títulos,
 descripciones, fotos y enlaces sobre nuestro grupo, para darnos a
