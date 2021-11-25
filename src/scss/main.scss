@@ -1,12 +1,5 @@
-/* @import "core/variables";
 @import "core/reset";
-@import "components/code";
-@import "components/links";
-@import "layout/page";
-@import "layout/header";
-@import "layout/footer";
-@import "pages/index"; */
-@import "core/reset";
+@import "core/variables";
 @import "layout/footer";
 @import "layout/header";
 @import "layout/quienessomos";
@@ -16,16 +9,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
-/* Esta es la tipo que usa toda la web, la he puesto en el footer, pero si la cambiamos al body mejor */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
-
-/* Estilo Equipo, Fortalezas y Debilidades */
-/* .sectionuno {
-  background-color: #ffffff;
-  padding: 15px 15px 25px 15px;
-  margin-top: 30px;
-  position: relative;
-} */
 
 .small {
   font-family: "OpenSans", sans-serif;
@@ -47,88 +31,26 @@
   transform: translate(-50%, 50%) rotate(-45deg);
 }
 
-/*.sectiondos {
-  background-color: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 15px 45px 15px;
-} 
-.title_fortalezas {
-  margin-top: 15px;
-  font-family: "Rubik", sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 45px;
-  text-align: center;
-  color: #099d8d;
-} */
-/*.itemdos {
-  font-family: "OpenSans", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #54585a;
-}*/
-/*.title_debilidades {
-  margin-top: 15px;
-  font-family: "Rubik", sans-serif;
-  font-size: 22px;
-  line-height: 45px;
-  font-weight: 500;
-  text-align: center;
-  color: #099d8d;
-}
-.itemtres {
-  font-family: "OpenSans", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #54585a;*/
-
-/*
-
-/* Form */
 .form-container {
   font-family: "OpenSans", sans-serif;
   color: #54585a;
   font-size: 12px;
 }
 
-/* Footer */
-
-/* Mediaquerys 768px y 1200px */
-
 @media all and (min-width: 768px) {
-  /* falta header */
-
   .sectionuno {
     padding-top: 15px;
   }
-  /*.sectiondos {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 15px 60px 15px;
-  } 
-  .articleuno {
-    padding-right: 15px;
-  }
-  .articledos {
-    padding-left: 15px;
-  } */
+
   .title_fortalezas {
     padding-bottom: 15px;
   }
   .title_debilidades {
     padding-bottom: 15px;
   }
-  /* falta poner medidas fotos, margenes o padding */
   .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  /* Falta colocar bien los elementos */
 }
