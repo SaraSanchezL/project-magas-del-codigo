@@ -1,9 +1,6 @@
 .sectiondos {
   background-color: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  /*justify-content: space-between;*/
-  align-items: center;
+  @include flexCentered();
   padding: 30px 15px 45px 15px;
   .articleTitle {
     font-family: "Rubik", sans-serif;
@@ -36,10 +33,7 @@
   }
 
   .clasearticle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexCentered();
     width: 50%;
   }
   .articleText {
