@@ -75,7 +75,7 @@ a {
 .header-text {
   height: 80px;
   padding: 14px 15px 16px;
-  background-color: #fff;
+  /*background-color: #fff;*/
   font-family: $fontOpen;
   font-weight: 600;
   font-size: 18px;
@@ -86,6 +86,12 @@ a {
   right: 15px;
   transform: translate(0, 50%);
   text-align: center;
+  &.whiteBackground {
+    background-color: #fff;
+  }
+  &.noBackground {
+    background-color: none;
+  }
   @media (min-width: 768px) {
     width: 441px;
     opacity: 80%;
