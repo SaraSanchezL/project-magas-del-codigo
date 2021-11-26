@@ -1,9 +1,9 @@
 .form {
   margin: 60px auto;
   width: 290px;
-  color: #54585a;
+  color: $colorText;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $fontOpen;
   font-weight: 400;
   @media (min-width: 768px) {
     width: 440px;
@@ -15,7 +15,7 @@
 
 .required::after {
   content: "*";
-  color: #14d9c4;
+  color: $colorBackgNav;
   margin-left: 3px;
 }
 
@@ -27,7 +27,7 @@ label {
 
 input,
 textarea {
-  border: solid 1px #b8b8b9;
+  border: solid 1px $colorCopyr;
   width: 100%;
   line-height: 15px;
   padding: 15px;
@@ -35,15 +35,15 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: #b8b8b9;
+  color: $colorCopyr;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $fontOpen;
 }
 
 .cta {
   text-transform: uppercase;
   color: white;
-  background-color: #099d8d;
+  background-color: $colorBackg;
   margin-top: 30px;
   border-radius: 4px;
   @media (min-width: 768px) {
@@ -51,7 +51,7 @@ textarea::placeholder {
     display: block;
     margin-left: auto;
   }
-    @media (min-width: 1200px){
+  @media (min-width: 1200px) {
     width: 280px;
   }
 }

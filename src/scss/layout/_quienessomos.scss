@@ -8,15 +8,15 @@
 .about-tittle {
   text-transform: uppercase;
   margin-top: 30px;
-  color: #099d8d;
+  color: $colorBackg;
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
   transition: font-size ease-out 2s, background-color ease-in 1s, border ease 1s;
   &:hover {
     font-size: 35px;
-    background-color: #f1f1f1;
-    border: solid 2px #54585a;
+    background-color: $backColorW;
+    border: solid 2px $colorText;
   }
   @media (min-width: 1200px) {
     margin-top: 45px;
@@ -27,7 +27,7 @@
   margin-top: 30px;
 }
 .about-container h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: $fontOpen;
   font-size: 20px;
   line-height: 45px;
   color: black;
@@ -98,8 +98,8 @@
 }
 .descriptionuno,
 .descriptiondos {
-  color: #54585a;
-  font-family: "OpenSans", sans-serif;
+  color: $colorText;
+  font-family: $fontOpen;
   font-size: 16px;
   text-align: center;
   line-height: 24px;
@@ -107,7 +107,7 @@
 }
 .social-icons {
   margin-top: 5px;
-  color: #099d8d;
+  color: $colorBackg;
   font-size: 16px;
   display: flex;
   justify-content: center;

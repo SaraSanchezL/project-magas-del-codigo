@@ -17,16 +17,18 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-family: "Rubik", sans-serif;
+  font-family: $fontRubik;
   color: #ffffff;
   font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
+  position: fixed;
+  z-index: 100;
   @media (min-width: 768px) {
     flex-direction: row;
     padding-left: 45px;
     padding-right: 45px;
-    background-color: #099d8d;
+    background-color: $colorBackg;
     justify-content: space-between;
     height: 60px;
     @media (min-width: 1200px) {
@@ -39,7 +41,7 @@
 h1 {
   height: 60px;
   padding: 15px;
-  background-color: #099d8d;
+  background-color: $colorBackg;
   opacity: 0.95;
   font-size: 16px;
   text-align: center;
@@ -49,7 +51,7 @@ h1 {
 }
 
 nav {
-  background-color: #14d9c4;
+  background-color: $colorBackgNav;
   opacity: 0.9;
   height: 45px;
   font-size: 15px;
@@ -75,8 +77,8 @@ a {
 .header-text {
   height: 80px;
   padding: 14px 15px 16px;
-  background-color: #fff;
-  font-family: "Open Sans", sans-serif;
+  /*background-color: #fff;*/
+  font-family: $fontOpen;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
@@ -86,6 +88,12 @@ a {
   right: 15px;
   transform: translate(0, 50%);
   text-align: center;
+  &.whiteBackground {
+    background-color: #fff;
+  }
+  &.noBackground {
+    background-color: none;
+  }
   @media (min-width: 768px) {
     width: 441px;
     opacity: 80%;
