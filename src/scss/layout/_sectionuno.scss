@@ -9,19 +9,19 @@
   justify-content: center;
   &--transition {
     padding: 15px 0px 15px 0px;
-    font-family: "Rubik", sans-serif;
+    font-family: $fontRubik;
     font-size: 24px;
     font-weight: 500;
     line-height: 45px;
     text-align: center;
-    color: #099d8d;
+    color: $colorBackg;
     text-transform: uppercase;
     transition: font-size ease-out 2s, background-color ease-in 1s,
       border ease 1s;
     &:hover {
       font-size: 35px;
       background-color: #f1f1f1;
-      border: solid 2px #54585a;
+      border: solid 2px $colorText;
     }
   }
 }
@@ -43,11 +43,11 @@
 }*/
 
 .itemuno {
-  font-family: "OpenSans", sans-serif;
+  font-family: $fontOpen;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #54585a;
+  color: $colorText;
 }
 
 @media (min-width: 768px) {

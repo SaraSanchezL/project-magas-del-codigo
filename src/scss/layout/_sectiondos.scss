@@ -1,24 +1,24 @@
 .sectiondos {
-  background-color: #f1f1f1;
+  background-color: $backColorW;
   display: flex;
   flex-direction: column;
   /*justify-content: space-between;*/
   align-items: center;
   padding: 30px 15px 45px 15px;
   .articleTitle {
-    font-family: "Rubik", sans-serif;
+    font-family: $fontRubik;
     font-size: 22px;
     font-weight: 500;
     line-height: 45px;
     text-align: center;
-    color: #099d8d;
+    color: $colorBackg;
   }
   .articleText {
-    font-family: "OpenSans", sans-serif;
+    font-family: $fontOpen;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #54585a;
+    color: $colorText;
   }
   .test {
     margin-bottom: 30px;
@@ -32,7 +32,7 @@
     align-items: flex-start;
     padding-top: 45px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: $backColorW;
   }
 
   .clasearticle {
