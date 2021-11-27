@@ -10,7 +10,7 @@
   background-image: url(../images/lampara.jpg);
 }
 .imageContact {
-  background-image: url(../images/contact.jpg);
+  background-image: url(../images/contact2.jpeg);
 }
 
 .headerdiv {
@@ -45,6 +45,7 @@ h1 {
   opacity: 0.95;
   font-size: 16px;
   text-align: center;
+  cursor: url(../layout/images/varita.png);
   @media (min-width: 768px) {
     opacity: 0.9;
   }
