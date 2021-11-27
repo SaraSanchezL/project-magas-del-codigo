@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+
+<body>
+  <header class="header imageContact">
+    <div class="headerdiv">
+      <h1><a href="index.html">Magas del código</a></h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html#equipo">Equipo</a></li>
+          <li><a href="./index.html#quienessomos">Quiénes somos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="header-text noBackground"></p>
+  </header>
+
+  <main>
+    <section class="sectionuno">
+      <div class="title__team">
+        <h2 class="title__team--transition" id="contact">Contacto</h2>
+      </div>
+      <p class="itemuno">
+        Si quieres llamar a las magas, para cualquier duda o sugerencia, frota la lámpara rellenando el siguiente
+        formulario:
+      </p>
+      <p class="small">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios</p>
+    </section>
+
+    <form class="form" action="https://formspree.io/f/xzbopdlq" method="post">
+      <label for="firstName" class="required">Nombre completo</label>
+      <input id="firstName" type="text" placeholder="Nombre..." name="firstName" required />
+
+      <fieldset class="emailField">
+        <label for="emailAddress" class="required">Email</label>
+        <input type="email" id="emailAddress" name="emailAddress" placeholder="nombre.apellidos@mail.com" required />
+      </fieldset>
+
+      <fieldset class="phoneField">
+        <label for="telephone">Teléfono</label>
+        <input type="tel" id="telephone" placeholder=" Ej: 123456789" name="telephone" />
+      </fieldset>
+
+      <label for="comments" class="required">Mensaje</label>
+      <textarea id="comments" name="comments" rows="6" placeholder="¿Qué necesitas?" required></textarea>
+
+      <input class="cta" type="submit" value="Enviar" />
+    </form>
+
+  </main>
+
+  <footer class="footer">
+    <p class="Copyright">Nombre del grupo © 2021</p>
+
+    <ul class="Footer-Links">
+      <li><a href="#equipo">Equipo</a></li>
+      <li><a href="#quienessomos">Quienes somos</a></li>
+      <li><a href="./contact.html">Contacto</a></li>
+    </ul>
+    <a class="Adalab-logo" href="https://www.adalab.es/">
+      <img alt="Logo adalab" src="./assets/images/logo-adalab.png" width="116" height="45">
+    </a>
+
+
+  </footer>
+</body>
+
+</html>

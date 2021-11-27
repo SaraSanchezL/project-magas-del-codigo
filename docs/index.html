@@ -1,68 +1,184 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Las Magas del Código</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="icon" href="./assets/images/star.png" />
+</head>
+
+<body>
+  <header class="header imageIndex">
+    <div class="headerdiv">
+      <h1><a href="index.html">Magas del código</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#quienessomos">Quiénes somos</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
+      </nav>
     </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+    <p class="header-text whiteBackground">Bienvenidos a esta mágica página, donde podréis saber un poquito más sobre nosotras.</p>
+  </header>
+
+  <main>
+    <section class="sectionuno">
+      <div class="title__team">
+        <h2 class="title__team--transition" id="equipo">Equipo</h2>
+      </div>
+      <p class="itemuno">
+        Empezamos de cero y sin conocernos, y poco a poco hemos ido creciendo como
+        equipo, tanto profesional como personalmente. Nos identificamos como equipo
+        porque nos complementamos muy bien entre nosotras, nos ayudamos mutuamente y
+        juntas podremos con todo lo que nos propongan. Tenemos muchas cosas en
+        común, entre ellas las ganas de aprender y trabajar como desarrolladoras
+        front-end. Y este es el primer paso!
+      </p>
+      <div class="square"></div>
+    </section>
+
+
+    <section class="sectiondos">
+      <article class=" 
+          test">
+        <h3 class="articleTitle">Fortalezas</h3>
+
+        <p class="articleText">Al contar con estudios, experiencia laboral, experiencia vital y personalidades diferentes, nuestra caja de herramientas es nutrida y variada. Eso nos permite unir fuerzas para trabajar de forma colaborativa, agradable y eficiente.</p>
+      </article>
+
+      <article class=" 
+          articleDos">
+        <h3 class="articleTitle">Debilidades</h3>
+
+        <p class="articleText">La distancia, el no conocernos, el ser la primera vez que nos enfrentamos a programación, de forma tanto individual como grupal no es sencillo pero este proyecto está sirviendo como aprendizaje, tanto de maquetación como de trabajo en equipo de forma remota.</p>
+      </article>
+    </section>
+
+    <section class="about-us">
+      <h2 class="about-tittle" id="quienessomos">Quiénes somos</h2>
+    </section>
+
+    <section class="about-container">
+
+      <article class="about-articleuno">
+        <img class="img-girl" src="./assets/images/fotoPaulaA.jpg" alt="foto de Paula Álvarez" />
+        <div class="box">
+          <h3 class="names">Paula Álvarez</h3>
+          <p class="descriptionuno">
+            Está claro que lo mío es probar: habiendo vivido en Salamanca, Barcelona, Londres, y los últimos 9 años en
+            Dublín, y habiendo trabajado de profesora, coordinadora de un departamento de educación online, traductora,
+            fotógrafa ahora, la vida, y la curiosidad me llevan a incursionarme en el mundo del desarrollo front-end. Me
+            gusta leer, la fotografía, el diseño, viajar, dar paseos por el campo y cuidar mis plantas.
+          </p>
+
+          <div class="social-icons">
+            <a href="https://twitter.com/alvarezb_paula"><i class="fab fa-twitter"></i></a>·
+            <a href="https://www.linkedin.com/in/paulalvarezb/"><i class="fab fa-linkedin-in"></i>
+            </a>·
+            <a href="https://github.com/Paula-AlvarezB"><i class="fab fa-github-alt"></i></a>·
+            <a href="mailto:alvarezb.paula@gmail.com"><i class="fas fa-envelope"></i></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="about-articledos">
+
+
+        <img class="img-girl" src="./assets/images/foto-bego.jpg" alt="Foto de Begoña" />
+        <div class="boxuno">
+          <h3 class="names">Begoña del Pozo</h3>
+          <p class="descriptiondos">
+            Después de muchos años trabajando en atención al cliente dentro del sector de transporte, ha llegado el momento
+            de dar un giro a mi experiencia laboral. Me gusta el trabajo en equipo y formarme en todo lo que puedo, por eso
+            afronto con ilusión esta nueva etapa de mi vida como desarrolladora front-end. Me gusta leer, la montaña y los
+            juegos de mesa.
+          </p>
+
+          <div class="social-icons">
+            <a href="https://twitter.com/Begodpo1"><i class="fab fa-twitter"></i></a> ·
+            <a href="https://www.linkedin.com/in/begoña-del-pozo-oltra-042097117"><i class="fab fa-linkedin-in"></i>
+            </a> ·
+            <a href="https://github.com/Begodpo"><i class="fab fa-github-alt"></i></a> ·
+            <a href="mailto:begodpo@gmail.com"><i class="fas fa-envelope"></i></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="about-articleuno">
+
+        <img class="img-girl" src="./assets/images/fotopaulav.png" alt="Foto de Paula de la Victoria" />
+
+        <div class="box">
+          <h3 class="names">Paula de la Victoria</h3>
+          <p class="descriptionuno">
+            La ilusión por viajar, conocer personas diferentes, leer todo lo que se me ponga por delante y aprender, suele
+            llevar a que me digan que lo que he estudiado no tiene nada que ver entre sí, aunque el lenguaje siempre ha sido
+            el hilo conductor: teorías de la comunicación, escritura creativa, lenguaje inclusivo... Ahora llega el momento
+            del lenguaje de programación para conocer el mundo del desarrollo front-end.
+
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a> ·
+            <a href="#"><i class="fab fa-linkedin-in"></i>
+            </a> ·
+            <a href="https://github.com/pauladelavictoria"><i class="fab fa-github-alt"></i></a> ·
+            <a href="mailto:pauladelavictoria@gmail.com"><i class="fas fa-envelope"></i></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="about-articledos">
+
+        <img class="img-girl" src="./assets/images/saras.jpg" alt="Foto de Sara" />
+
+        <div class="boxuno">
+          <h3 class="names">Sara Sánchez</h3>
+
+          <p class="descriptiondos">
+            Fan de los parques temáticos (a lo que me dedicaba antes de empezar esta aventura), las ganas de
+            un cambio de vida me traen aquí,
+            a aprender desarrollo front-end. Como aficiones, la música, coleccionar funkos, hacer escape-room y los
+            videojuegos.
+          </p>
+
+          <div class="social-icons">
+            <a href="https://twitter.com/SaraSL93"><i class="fab fa-twitter"></i></a> ·
+            <a href="https://www.linkedin.com/in/sara-s%C3%A1nchez-156a73224/"><i class="fab fa-linkedin-in"></i>
+            </a> ·
+            <a href="https://github.com/SaraSanchezL"><i class="fab fa-github-alt"></i></a> ·
+            <a href="mailto:sarasanchezlopez93@gmail.com"><i class="fas fa-envelope"></i></i></a>
+
+          </div>
+        </div>
+      </article>
+    </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="Copyright">Nombre del grupo © 2021</p>
+
+    <ul class="Footer-Links">
+      <li><a href="#equipo">Equipo</a></li>
+      <li><a href="#quienessomos">Quienes somos</a></li>
+      <li><a href="./contact.html">Contacto</a></li>
+    </ul>
+    <a class="Adalab-logo" href="https://www.adalab.es/">
+      <img alt="Logo adalab" src="./assets/images/logo-adalab.png" width="116" height="45">
+    </a>
+
+
+  </footer>
+</body>
+
 </html>
